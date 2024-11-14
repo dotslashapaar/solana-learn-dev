@@ -1,0 +1,28 @@
+$ spl-token create-token
+Loading SPL Token CLI...
+Success.
+
+Creating token 12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW
+
+Address:  12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW
+Decimals:  9
+ 
+Signature: 2DnKgSY6rvKfYSuKW6egfDQp2zXEpxLGUcKCmK2s7xaWNT6b6VnU2x6pQbu4ebHE99xfokpX1u2Fhrq8ueBWwopo
+
+$ spl-token supply 12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW
+0
+
+$ spl-token create-account 12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW
+Creating account B1RN6kPhAme5EUNCTK7dcsksSWND9AZU2ka72zf4yxrF
+
+Signature: 5BXWWTPm1x5q8FYUHvqvW5U84u9wzHYfDc3emQH5MvgMQHqsJtwan27pbm4uPYeY5c8jAHXdtSeMo2nLWMFhK73g
+
+$ spl-token mint 12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW 100
+Minting 100 tokens
+  Token: 12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW
+  Recipient: B1RN6kPhAme5EUNCTK7dcsksSWND9AZU2ka72zf4yxrF
+
+Signature: 2n9X5WGXTACnDgzh9L4wnJ3feCzY96nwY2ES7g4znuSGax16GpcJ3qhaCXa8c5dP8pTAQTVkEYTtHyajsygDXa3e
+
+$ spl-token supply 12qapvCV771KhqhMcgyEsvfod7h56o1SSbgW2HyoqszW
+100
